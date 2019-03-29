@@ -63,24 +63,26 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/*Code starts here*/
+/*New Code starts here*/
 
 .container {
     width: 880px;
     height: 2000px;
 	margin: 30px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 header {
-	display: flex;
+    display: flex;
+    align-items: baseline;
 }
 header nav {
-	margin-top: 35px;
+    margin-top: 35px;
 }
 
 header img.logo {
-	margin-left: 100px;
+    margin-left: 120px;
+    /* margin-top: 30px; instead of using margins, can I center align everything using flex box? */
 }
 
 header nav a {
